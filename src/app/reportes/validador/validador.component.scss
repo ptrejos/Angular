@@ -1,0 +1,51 @@
+/* Estilos generales para la tabla */
+.demo-table {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.mat-header-cell, .mat-cell {
+    padding: 8px 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Estilos para los botones dentro de la tabla */
+button.mat-fab {
+    margin-right: 8px;
+    height: 40px;
+    width: 40px;
+    min-width: 0; /* Remueve el min-width predeterminado de los botones mat-fab */
+}
+
+mat-icon {
+    font-size: 20px; /* Ajusta el tamaño de los iconos dentro de los botones */
+}
+
+/* Estilos adicionales para los encabezados de la tabla */
+.mat-header-row {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Estilo para las filas */
+.mat-row {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Estilos para las celdas específicamente */
+.mat-cell {
+    color: #666;
+}
+
+/* Estilos para los botones para que no tengan bordes ni fondo sobresaliente */
+button.mat-fab {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* Hover effects para los botones */
+button.mat-fab:hover {
+    background-color: #e0e0e0;
+}

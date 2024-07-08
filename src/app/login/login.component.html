@@ -1,0 +1,32 @@
+<mat-card>
+    <mat-card-header class="cabecera">
+        <img mat-card-image src="assets/images/logo-light-icon.png" style="width: 60px;" height="60px" alt="Photo of a Shiba Inu">        
+        <mat-card-title>Marina de Guerra</mat-card-title>
+        <mat-card-subtitle>Sistema Integrado</mat-card-subtitle>
+    </mat-card-header>
+  
+    <mat-card-content>
+        <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+            <h2>Logeo MGP</h2>
+            <mat-error *ngIf="!loginValid">
+                El usuario o password no son válidos
+            </mat-error>
+            <mat-form-field>
+                <input matInput placeholder="Usuario" [(ngModel)]="usuario" name="usuario" required >
+                <mat-error>
+                    El usuario no puede ser nulo
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput type="password" placeholder="password" [(ngModel)]="password" name="password" required >
+                <mat-error>
+                    El password no puede ser vacio
+                </mat-error>
+            </mat-form-field>
+            <button mat-raised-button color="primary" [disabled]="!loginForm.form.valid">Login</button>
+            <mat-error *ngIf="validacionCredencial">
+                Las credenciales no son válidas
+            </mat-error>
+        </form>
+    </mat-card-content>
+</mat-card>

@@ -1,0 +1,40 @@
+
+  mat-card {
+    max-width: 400px; /* Ajusta según tus necesidades */
+    margin: 20px auto; /* Centra el card horizontalmente y añade margen vertical */
+    border: 1px solid #ccc; /* Borde sutil */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave para dar profundidad */
+  }
+  
+  mat-card-title {
+    background-color: #005f73; /* Color de fondo para el título */
+    color: #ffffff; /* Color de texto para el título */
+    padding: 8px 16px; /* Espaciado interno */
+  }
+  
+  mat-card-content p {
+    font-size: 16px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+    margin-top: 0;
+    padding: 10px 16px; /* Espaciado interno */
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: flex-end; /* Alinea los botones a la derecha */
+    padding: 10px 16px; /* Espaciado interno */
+  }
+  
+  button.mat-button {
+    margin-left: 8px; /* Espacio entre los botones */
+  }
+  
+  .cancel-button {
+    color: #666; /* Color de texto del botón */
+    border-color: #ccc; /* Color del borde del botón */
+  }
+  
+  .confirm-button {
+    color: #ffffff; /* Color de texto del botón de confirmación */
+    background-color: #0077b6; /* Color de fondo del botón de confirmación */
+  }

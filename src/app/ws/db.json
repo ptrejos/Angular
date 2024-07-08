@@ -1,0 +1,82 @@
+{
+  "token": {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE3MTkyMzYxMDEsImV4cCI6MTc1MDc3MjEwMSwiYXVkIjoid3d3LnZhbGlkYWRvci5jb20ucGUiLCJzdWIiOiJpbnZpdGFkb0BtYXJpbmEubWlsLnBlIiwidXN1YXJpbyI6Imludml0YWRvIiwiZW1haWwiOiJpbnZpdGFkb0BtZ3AubWlsLnBlIiwiUm9sZSI6WyJNYW5hZ2VyIiwiUHJvamVjdCBBZG1pbmlzdHJhdG9yIl0sImFjY2VzbyI6WyJyZXBvcnRlcyIsImNvbnN1bHRhcyIsInZhbGlkYWNpb24iXX0.B15y8dtoKKyYtzFHVdcIsldJ-bgKtl35bkqdnJVydzo"
+  },
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post 1",
+      "author": "Author 1"
+    },
+    {
+      "id": "2",
+      "title": "Post 2",
+      "author": "Author 2"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "Some comment",
+      "postId": 1
+    },
+    {
+      "id": "2",
+      "body": "Another comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "John Doe"
+  },
+  "alumnos": [
+    {
+      "id": "1",
+      "nombre": "José Luis",
+      "apellido": "Morales",
+      "edad": "36"
+    },
+    {
+      "id": "2",
+      "nombre": "María Claudia",
+      "apellido": "Pérez",
+      "edad": 30
+    },
+    {
+      "id": "3",
+      "nombre": "Juan",
+      "apellido": "Gómez",
+      "edad": 35
+    },
+    {
+      "id": "4",
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "edad": 40
+    },
+    {
+      "id": "5",
+      "nombre": "Pedro",
+      "apellido": "García",
+      "edad": 45
+    },
+    {
+      "id": "6",
+      "nombre": "Luis",
+      "apellido": "Hernández",
+      "edad": 50
+    },
+    {
+      "id": "7",
+      "nombre": "Carlos",
+      "apellido": "López",
+      "edad": 55
+    },
+    {
+      "id": "9",
+      "nombre": "Sara",
+      "apellido": "Jiménez",
+      "edad": 65
+    }
+  ]
+}

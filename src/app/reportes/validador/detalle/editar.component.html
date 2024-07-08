@@ -1,0 +1,17 @@
+<div class="card">
+    <div class="card-header">Datos del Alumno</div>
+    <div class="card-body">
+        <label for="id">Codigo: </label>
+        <input type="text" [(ngModel)]="alumno.id" readonly name="id"> <br>
+        <label for="nombre">Nombre: </label>
+        <input type="text" [(ngModel)]="alumno.nombre" name="nombre"> <br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" [(ngModel)]="alumno.apellido" name="apellido"> <br>
+        <label for="edad">Edad: </label>
+        <input type="text" [(ngModel)]="alumno.edad" name="edad">
+    </div>
+    <div class="card-footer">
+        <button (click)="onClose()" class="cancel-button">Cancelar</button>
+        <button class="confirm-button" (click)="modificarRegistro(alumno.id, alumno)">Actualizar</button>
+    </div>
+</div>

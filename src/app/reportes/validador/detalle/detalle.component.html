@@ -1,0 +1,12 @@
+<mat-card >
+  <mat-card-title>Eliminar Registro</mat-card-title>
+  <mat-card-content>
+    <p>Seguro de eliminar a {{data.element.nombre}}?</p>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <button mat-button (click)="onClose()"class="cancel-button">No</button>
+    <button mat-button class="confirm-button" cdkFocusInitial (click)="eliminarRegistro(data.element.id)">Sí</button>
+  </mat-card-actions>
+</mat-card>
+
+
